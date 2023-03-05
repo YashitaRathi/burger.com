@@ -1,0 +1,150 @@
+@media screen and (max-width:1080px)/* tablet 992px */ {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: 100%;
+    }
+    .delivery {
+        left: 56%;
+    }
+    .choose .order-box .text-box p {
+        width: 100%;
+    }
+    .upcoming .text-box h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .upcoming .text-box p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .form-width {
+        width: 80%;
+        padding-top: 40px;
+    }
+    .burger .img-2 {
+        bottom: 4%;
+        left: 84%;
+    }
+    footer{
+        margin:0px;
+    }
+    .event-slider .slick-dots {
+        bottom: 10px;
+}
+
+
+
+@media screen and (max-width:991px) /* ipad 768px */{
+    .delivery {
+        left: 0%;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-left: 0 !important;
+    }
+    header ul.navbar-nav {
+        margin-top: 15px;
+    }
+    .hero-sec .text-box h4 {
+        font-size: 21px;
+    }
+    .hero-sec .text-box h1 {
+        font-size: 70px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    .tryit {
+        margin: 40px 0;
+    }
+    .choose .text-box p {
+        width: 100%;
+        
+    }
+    .form-width {
+        width: 100%;
+    }
+    .burger .img-2 {
+        bottom: 4%;
+        left: 79%;
+    }
+    .content {
+        position: absolute;
+        top: 70%;
+        left: 4%;
+        right:0%;
+    }
+    .content h5 img {
+        padding-right: 10px;
+        width:40px;
+    }
+    footer{
+        margin:0px;
+    }
+}
+
+
+
+@media screen and (max-width:767px) /* mobile 360px */{
+    a.navbar-brand {
+        width: 60%;
+    }
+    .hero-sec .text-box h4 {
+        font-size: 18px;
+    }
+    .hero-sec .text-box h1 {
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .hero-sec .text-box {
+        padding-top: 40px;
+    }
+    .tryit .img-box {
+        margin-bottom: 5.5%;
+    }
+    .order-box .text-box h3 {
+        font-size: 30px;
+    }
+    .row.upcoming {
+        padding: 9px;
+        margin: 5px;
+    }
+    .upcoming .text-box h2 {
+        font-size: 25px;
+    }
+    .form-width {
+        padding-top: 10px;
+    }
+    .reservation form button,
+    .reservation form input {
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    .reservation form button {
+        font-size: 18px;
+    }
+    .reservation form input::placeholder{
+        font-size: 15px;
+    }
+    .reservation {
+        padding: 30px 0 40px;
+    }
+    .burger .img-2 {
+        bottom: 8%;
+        left: 4%;
+    }
+    .content {
+        position: absolute;
+        top: 70%;
+        left: 4%;
+        right:0%;
+    }
+    .content h5 img {
+        padding-right: 10px;
+        width:40px;
+    }
+    footer{
+        margin:0px;
+    }
+   
+}

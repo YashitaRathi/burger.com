@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+h1,h2{
+    font-family: 'Alfa Slab One', cursive;
+}
+h3,h4,h5{
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+header{
+    background-image: url(../image/headerbg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header a.nav-link{
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header ul.navbar-nav{
+    margin-top: 60px;
+}
+.delivery{
+    position: relative;
+    left: 62%;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding-left: 30px !important;
+}
+.hero-sec .text-box h4{
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px 15px 3px;
+    border: 2px dashed #3d2514;
+}
+.hero-sec .text-box h1{
+text-transform: uppercase;
+font-size: 100px;
+margin-bottom: 0;
+text-shadow: 3px 3px 2px #f1f1f1cf;
+}
+.hero-sec .text-box h2{
+    text-shadow: 3px 3px 2px #f1f1f1cf;
+}
+.hero-sec{
+    padding-bottom: 60px;
+}
+.tryit{
+    margin: 60px 0;
+}
+.tryit .img-box-2{
+    margin-bottom: 6%;
+}
+.tasty-btn{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tasty-btn button{
+    background-color: #ffc135;
+    color: #3d2514;
+    font-size: 25px;
+    border: 0;
+    padding: 10px 25px 6px;
+    font-family: 'Bebas Neue', cursive;
+}
+.choose .text-box{
+    text-align: center;
+}
+.choose .text-box p{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.order-box .btn-box{
+    text-align: center;
+}
+.order-box .text-box h3{
+    font-size: 40px;
+}
+.choose .order-box .text-box p{
+    width: 80%;
+}
+.btn-box button{
+    background-color: #df1c1c;
+    font-size: 20px;
+    padding: 15px 35px 13px;
+    border: 0;
+    font-family: 'Alfa Slab One', cursive;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+section.choose{
+    margin-bottom: 40px;
+}
+.order-box{
+    margin-bottom: 40px;
+}
+.upcoming .text-box h4{
+    color: #3b3b3b;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.upcoming .text-box h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.upcoming .text-box p{
+    font-size: 18px;
+    line-height: 31px;
+}
+.event-slider{
+    padding: 20px;
+    box-shadow:25px 25px 30px 3px #00000045;
+}
+.discover{
+    padding: 50px;
+}
+.upcoming .img-box img{
+    width: 100%;
+}
+.event-slider .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #ffc135;
+}
+.event-slider .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 70px;
+}
+.event-slider .slick-dots {
+    bottom: 35px;
+    text-align: left;
+}
+.event-slider .slick-dots li button:before {
+    color: #ffc135;
+}
+.reservation .text-box{
+    text-align: center;
+}
+.reservation {
+    background-image: url(../image/formbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 100px;
+}
+.reservation form input {
+    width: 100%;
+    height: 65px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+}
+.reservation form input::placeholder{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+}
+.form-width {
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+}
+.reservation form button{
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    background-color: #df1c1c;
+    border: 2px solid #df1c1c;
+    color: #fff;
+    font-size: 22px;
+}
+footer{
+    background-image: url(../image/footerbg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 50px 50px 50px;
+}
+.burger .img-0{
+    padding-top: 95px;
+    padding-bottom: 45px;
+}
+.burger p{
+    font-size: 16px;
+    color: #ffffff;   
+}
+.arr{
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 170px;
+}
+h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+.container{
+    position: relative;
+}
+.burger .img-2{
+    width: 150px;
+    position: absolute;
+    bottom: 5%;
+    left:90%;
+}
+.content{
+    position: absolute;
+    top:46%;
+    right:12%
+}
+.content h5 img{
+    padding-right: 15px;
+}
