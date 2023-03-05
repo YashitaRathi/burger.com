@@ -25,7 +25,7 @@ img{
 }
 
 header{
-    background-image: url(../image/headerbg.webp);
+    background-image: url(headerbg.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -159,7 +159,7 @@ section.choose{
     text-align: center;
 }
 .reservation {
-    background-image: url(../image/formbg.webp);
+    background-image: url(formbg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 0 100px;
@@ -193,7 +193,7 @@ section.choose{
     font-size: 22px;
 }
 footer{
-    background-image: url(../image/footerbg.webp);
+    background-image: url(footerbg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px 50px 50px 50px;
